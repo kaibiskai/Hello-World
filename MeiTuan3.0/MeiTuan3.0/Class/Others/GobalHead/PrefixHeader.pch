@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  MeiTuan3.0
+//
+//  Created by student on 16/5/9.
+//  Copyright © 2016年 Klaus. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "Header.h"
+#import "JsonManager.h"
+#import "MTUrlManager.h"
+#import "HttpManager.h"
+#import "DataTool.h"
+#import "OtherTool.h"
+#import "MJRefresh.h"
+#import "FMResultSet.h"
+#import "KSNavController.h"
+#import "KSTabController.h"
+#import "NSString+Extension.h"
+#import "UIView+Extension.h"
+#import "UIButton+Extension.h"
+#import "UIBarButtonItem+Extension.h"
+#import "CityA.h"
+#import "Area.h"
+#import "User.h"
+#endif /* PrefixHeader_pch */
